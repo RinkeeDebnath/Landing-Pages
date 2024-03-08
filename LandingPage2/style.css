@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(190 165 171);
+    overflow: hidden;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#part1{
+    width:25%;
+    height: 100%;
+}
+#part2{
+    width:67%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1462804993656-fac4ff489837?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-color: cover;
+    background-position: top;
+}
+
+.overlay{
+    width:100%;
+    height:100%;
+    background-color: rgba(190, 165, 171, 0.285);
+}
+
+#part3{
+    width:8%;
+    height: 100%;
+}
+
+#small-img{
+    width:230px;
+    height:300px;
+    background-color: red;
+    position: absolute;
+    top:30%;
+    right:4%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1673757121102-0ca51260861f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#nav{
+position: absolute;
+display:flex;
+justify-content: space-between;
+align-items: center;
+width:500px;
+padding:20px;
+left:3%;
+}
+
+#nav #burger-menu{
+padding:20px;
+border: 3px dashed #fff;
+border-radius: 50%;
+}
+#nav i{
+    color:#fff;
+    font-size: 30px;
+}
+
+#nav h4{
+    text-transform: uppercase;
+    font-family: "Anta";
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 10px;
+
+}
+
+#textpart{
+    position: absolute;
+    bottom:20%;
+    left:4%;
+}
+
+#textpart h1{
+    text-transform: uppercase;
+    color:#fff;
+    letter-spacing: 15px;
+    font-family: "Anta";
+    font-size: 80px;
+    font-weight:800;
+}
+
+#vertical-text{
+    position:absolute;
+    width:100%;
+    transform: rotate(90deg);
+    transform-origin: left bottom;
+    left:92.5%;
+
+}
+
+#vertical-text h1{
+    text-transform: uppercase;
+    color:transparent;
+    letter-spacing: 10px;
+    font-family: "Anta";
+    font-size: 60px;
+    font-weight:800;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 0.1px;
+}
